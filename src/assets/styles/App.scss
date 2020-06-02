@@ -1,7 +1,14 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
+* {
+	box-sizing: border-box;
+}
+
 body {
     margin: 0px;
     background: radial-gradient(circle, rgba(2,180,196,1) 0%, rgba(1,99,108,1) 48%, rgba(0,0,0,1) 100%);
-    font-family: 'Muli', sans-serif;
+    font-family: $theme-font;
     max-width: 100%;
     /* overflow-x: hidden; */
 }
